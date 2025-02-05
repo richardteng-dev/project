@@ -1,0 +1,13 @@
+name: project-env
+channels:
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - ipykernel
+  - python=3.10
+  - scikit-learn=1.2.1
+  - jupyterlab
+  - pandas
+  - matplotlib
+prefix: /opt/miniconda3/envs/project-env
